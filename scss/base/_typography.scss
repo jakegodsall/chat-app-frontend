@@ -1,0 +1,8 @@
+@use '../abstracts' as a;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: a.$color-font-primary;
+}

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/base/_typography.scss","../scss/base/_base.scss","../scss/abstracts/_variables.scss","../scss/components/_phone.scss"],"names":[],"mappings":"AAEQ;ACFR;AAAA;AAAA;EAGI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;ADnBJ;EACI;EACA,OENiB;;;ACErB;EACI;EACA;EACA;EACA;EACA;EAEA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA,kBDdO;ECeP","file":"main.css"}
