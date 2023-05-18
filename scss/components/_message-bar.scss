@@ -1,0 +1,16 @@
+@use '../abstracts' as a;
+
+.message-bar {
+    position: absolute;
+
+    width: 95%;
+    background-color: #fff;
+
+    @include a.position(auto, 0.75rem, 1rem, 0.75rem);
+
+    &__text {
+    }
+
+    &__send-button {
+    }
+}
