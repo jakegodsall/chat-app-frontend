@@ -2,15 +2,32 @@
 
 .message-bar {
     position: absolute;
+    display: flex;
+    align-items: center;
 
-    width: 95%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 21rem;
     background-color: #fff;
 
     @include a.position(auto, 0.75rem, 1rem, 0.75rem);
 
     &__text {
+        color: a.$color-font-secondary;
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
     }
 
     &__send-button {
+        width: 2.5rem;
+        height: 2.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: a.$color-font-primary;
+        border-radius: 2rem;
+        margin-left: auto;
     }
 }

@@ -34,6 +34,27 @@ body {
   color: hsl(271, 36%, 24%);
 }
 
+.arrow {
+  display: inline-block;
+  border: solid #fff;
+  border-width: 0 0.3rem 0.3rem 0;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  margin-right: 0.3rem;
+}
+.arrow--right {
+  transform: rotate(-45deg);
+}
+.arrow--left {
+  transform: rotate(135deg);
+}
+.arrow--up {
+  transform: rotate(-135deg);
+}
+.arrow--down {
+  transform: rotate(45deg);
+}
+
 .choice {
   display: flex;
   align-items: center;
@@ -115,12 +136,31 @@ body {
 
 .message-bar {
   position: absolute;
-  width: 95%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  width: 21rem;
   background-color: #fff;
   top: auto;
   right: 0.75rem;
   bottom: 1rem;
   left: 0.75rem;
+}
+.message-bar__text {
+  color: hsl(271, 7%, 64%);
+  font-size: 0.9rem;
+  margin-left: 0.7rem;
+}
+.message-bar__send-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 2rem;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
