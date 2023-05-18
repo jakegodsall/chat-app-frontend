@@ -37,4 +37,18 @@
         height: 41rem;
         padding: 0.75rem;
     }
+
+    &__pictures {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.8rem;
+        margin: 1.6rem 0 0.8rem;
+    }
+
+    &__picture {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 1rem;
+        box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+    }
 }
