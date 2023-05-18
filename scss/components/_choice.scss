@@ -1,0 +1,36 @@
+@use '../abstracts' as a;
+
+.choice {
+    display: flex;
+    align-items: center;
+
+    max-width: 16rem;
+    background-image: linear-gradient(225deg, a.$color-linear-gradient1, a.$color-linear-gradient2);
+    border-radius: 1rem 1rem 1rem 0.4rem;
+
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    padding-right: 1.6rem;
+
+    &__circle {
+        border: 0.1rem solid#E472FF;
+        padding: 0.6rem;
+        border-radius: 2rem;
+        margin-right: 0.8rem;
+    }
+
+    &__text,
+    &__value {
+        color: #fff;
+    }
+
+    &__text {
+        font-size: 0.8rem;
+    }
+
+    &__value {
+        font-weight: 700;
+        margin-left: auto;
+        font-size: 1.2rem;
+    }
+}
