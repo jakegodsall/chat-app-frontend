@@ -1,0 +1,27 @@
+.options-button {
+    position: relative;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    margin-left: auto;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        background-color: inherit;
+        border-radius: inherit;
+    }
+
+    &::before {
+        top: -0.5rem;
+    }
+
+    &::after {
+        top: 0.5rem;
+    }
+}
