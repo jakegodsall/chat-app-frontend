@@ -253,7 +253,13 @@ body {
   top: 0;
   height: 50.9rem;
   width: 25.5rem;
-  border-radius: 0 0 22.5rem 0;
+  border-radius: 0 0 100rem 0;
+}
+@media only screen and (min-width: 950px) {
+  .background-bubble1 {
+    width: 30vw;
+    height: 70vh;
+  }
 }
 
 .background-bubble2 {
@@ -261,9 +267,15 @@ body {
   width: 25.5rem;
   bottom: 0;
   right: 0;
-  border-radius: 22.5rem 0 0 0;
+  border-radius: 100rem 0 0 0;
   z-index: -1;
   opacity: 0.03;
+}
+@media only screen and (min-width: 950px) {
+  .background-bubble2 {
+    width: 30vw;
+    height: 70vh;
+  }
 }
 
 .main__content {
