@@ -1,3 +1,5 @@
+@use '../abstracts' as a;
+
 *,
 *::before,
 *::after {
@@ -12,7 +14,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: orangered;
+    background-color: a.$color-background-main;
 }
 p {
     margin: 0;
