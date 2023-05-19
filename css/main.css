@@ -201,6 +201,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (min-width: 800px) {
+  .phone {
+    margin-inline: 0;
+  }
+}
 .phone__screen {
   width: 22.8rem;
   height: 48.3rem;
@@ -262,9 +267,30 @@ body {
   opacity: 0.03;
 }
 
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 800px) {
+  .main__content {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12.5rem;
+  }
+}
+
 .text-content {
   text-align: center;
   margin-inline: 3.2rem;
+  max-width: 31.1rem;
+}
+@media only screen and (min-width: 800px) {
+  .text-content {
+    text-align: start;
+    margin-inline: 0;
+    max-width: 44.5rem;
+  }
 }
 .text-content__title {
   font-weight: 500;
