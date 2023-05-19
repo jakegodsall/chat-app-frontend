@@ -241,22 +241,23 @@ body {
 .background-bubble2 {
   position: absolute;
   overflow: hidden;
-  width: 51rem;
   background-image: linear-gradient(225deg, hsl(292, 100%, 63%), hsl(263, 100%, 61%));
 }
 
 .background-bubble1 {
-  left: -32.2rem;
+  left: 0;
   top: 0;
-  bottom: 50.9rem;
-  border-radius: 0 0 22.5rem 22.5rem;
+  height: 50.9rem;
+  width: 25.5rem;
+  border-radius: 0 0 22.5rem 0;
 }
 
 .background-bubble2 {
   height: 50.9rem;
+  width: 25.5rem;
   bottom: 0;
-  right: -32.2rem;
-  border-radius: 22.5rem 22.5rem 0 0;
+  right: 0;
+  border-radius: 22.5rem 0 0 0;
   z-index: -1;
   opacity: 0.03;
 }
