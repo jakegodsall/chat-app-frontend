@@ -46,7 +46,7 @@ Users should be able to:
 
 This project has been quite different compared to the ones I am used to. The design is fairly simple, but the main component is built using HTML and CSS rather than using some prebuilt `.svg`.
 
-Although I have not learned any new CSS rules whilst building this project, I believe I have greatly improved upon my understanding of HTML/Sass architecture, specifically using BEM and Sass partials in order to make the design as composible as possible.
+Although I have not learned any new CSS rules whilst building this project, I believe I have greatly improved upon my understanding of HTML/Sass architecture, specifically using BEM and Sass partials in order to make the design as composable as possible.
 
 ## Author
 
