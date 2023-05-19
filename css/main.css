@@ -189,6 +189,8 @@ body {
 
 .phone {
   position: relative;
+  margin-inline: auto;
+  margin-top: 6rem;
   width: 24.7rem;
   height: 50.5rem;
   border-radius: 3rem;
@@ -238,21 +240,39 @@ body {
 .background-bubble1,
 .background-bubble2 {
   position: absolute;
+  overflow: hidden;
   width: 51rem;
-  height: 101.8rem;
-  border-radius: 22.5rem;
   background-image: linear-gradient(225deg, hsl(292, 100%, 63%), hsl(263, 100%, 61%));
 }
 
 .background-bubble1 {
   left: -32.2rem;
-  top: -50.9rem;
+  top: 0;
+  bottom: 50.9rem;
+  border-radius: 0 0 22.5rem 22.5rem;
 }
 
 .background-bubble2 {
-  bottom: -50.9rem;
+  height: 50.9rem;
+  bottom: 0;
   right: -32.2rem;
+  border-radius: 22.5rem 22.5rem 0 0;
+  z-index: -1;
   opacity: 0.03;
+}
+
+.text-content {
+  text-align: center;
+  margin-inline: 3.2rem;
+}
+.text-content__title {
+  font-weight: 500;
+  font-size: 4rem;
+}
+.text-content__content {
+  line-height: 2.8rem;
+  font-size: 1.6rem;
+  color: hsl(271, 7%, 64%);
 }
 
 /*# sourceMappingURL=main.css.map */
